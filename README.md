@@ -7,6 +7,7 @@
 Bem-vindo ao meu diário de bordo do desafio **#100DaysOfCode**!
 
 Inspirado no projeto clássico do [kallaway - 100 days of code](https://github.com/kallaway/100-days-of-code). Inicialmente pensei em criar um blog usando Bun, que descobri com o [Valdeir Sapará](https://github.com/valdeirsapara), mas não tenho dominio para subir o site pq sou liso então vou postar aqui mesmo.
+
 Meio que estou reaprendendo a programar depois de ficar mt tempo sem programar e só depender de IA.
 
 ---
