@@ -1,6 +1,6 @@
 # 🚀 100 Days of Code — Felpnoo
 
-![Progress](https://img.shields.io/badge/Progresso-1%20%2F%20100%20dias-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progresso-2%20%2F%20100%20dias-brightgreen?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em%20Andamento-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
 
@@ -26,7 +26,20 @@ Meio que estou reaprendendo a programar depois de ficar mt tempo sem programar e
 | Dia | Desafio / Projeto | Tópicos Praticados | Código |
 | :---: | :--- | :--- | :---: |
 | **01** | [1 Minute Math](https://github.com/zhiwehu/100_plus_Python_Projects_Challenge/blob/main/001_1_minute_math.md) | `while`, `time`, `random`, `try/except`, condicionais | [Ver código](Semanas/Semana1/Dia1/1.py) |
+| **02** | [Braille Translator](https://github.com/csjh/eng-intern-challenge) | `sys.argv`, `dict` bidirecional, manipulação de strings, fatiamento (`slicing`) | [Ver código](Semanas/Semana1/Dia2/2.py) |
 
-#### 📝 Detalhes do Dia 1
+#### 📝 Detalhes dos Dias
+
+<details>
+<summary><b>Dia 1 — 1 Minute Math</b></summary>
+
 - **O que foi feito:** Um jogo de matemática contra o relógio (60 segundos). O programa sorteia números e operações aritméticas (`+`, `-`, `*`, `/`), garante divisões inteiras sem divisão por zero, trata entradas inválidas do usuário e calcula a taxa de acerto final com histórico das respostas.
 - **Aprendizados:** Controle de tempo com o módulo `time`, boas práticas de sorteio com `random`, tratamento de exceções com `try/except` para não quebrar com inputs inválidos e formatação de saídas.
+</details>
+
+<details open>
+<summary><b>Dia 2 — Braille Translator</b></summary>
+
+- **O que foi feito:** Um tradutor bidirecional de linha de comando que detecta automaticamente se a entrada é Inglês ou Braille (representado por `O` e `.`). Trata letras maiúsculas com o prefixo indicador de caixa alta, suporte a números (prefixo numérico e mapeamento das letras correspondentes) e preservação de espaços.
+- **Aprendizados:** Captura de argumentos com `sys.argv`, detecção de padrões com conjuntos (`set.issubset`), inversão dinâmica de dicionários com *dict comprehension*, fatiamento de strings de 6 em 6 caracteres e controle de estado por flags (`modoNum`, `proxUp`).
+</details>
